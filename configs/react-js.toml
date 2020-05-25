@@ -1,0 +1,18 @@
+folder = []
+label = "react"
+name = "react-js"
+
+[[file]]
+  destination = ".gitignore"
+  template = "gitignore-react"
+
+[[file]]
+  destination = ".prettierrc.json"
+  template = "prettierrc.json"
+
+[[script]]
+  name = "init_react.sh"
+  type = "pre"
+  execNumber = 1
+  runAsSudo = false
+  args = []
